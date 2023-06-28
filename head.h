@@ -22,6 +22,6 @@ vector<string> tokenizeInput(const string& input);
 void cmdexe(const vector<string>& tokens);
 void sighand(int signal);
 void chgdir(const string& path);
-
+void highl_op(const string& output);
 
 #endif
