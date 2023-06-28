@@ -2,8 +2,6 @@
 
 using namespace std;
 
-int main(void):
-{
   vector<string> tokenizeInput(const string& input) {
     vector<string> tokens;
     istringstream iss(input);
@@ -14,4 +12,4 @@ int main(void):
     return tokens;
 }
 
-}
+
